@@ -1,0 +1,6 @@
+
+local R3bugSpy = {
+	["Owner"] = "R3bug",
+	["ScriptName"] = "R3bugSpy.lua"
+}
+loadstring(game:HttpGet(string.format("https://raw.githubusercontent.com/%s/scriptz/main/%s", R3bugSpy["Owner"], R3bugSpy["ScriptName"], true)))()
